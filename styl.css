@@ -1,0 +1,164 @@
+* {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;}
+    /*body{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+    }*/
+
+    #mainContaienr{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+         height: 100vh;
+    }
+    #searchForm{
+        display: flex;
+         overflow: hidden;
+        background-color: #FFF8EB;
+        border:black solid 2px;
+        border-radius: 50px;
+        margin: auto;
+        margin-top: 80px;
+        margin-bottom: 90px;
+        width: 60%;
+        position: relative;
+        
+
+         
+     }
+    #searchForm button{
+        border: none; 
+        /*this make my button fixed in the letft side 
+        of the input said*/
+        margin-left: auto;
+        text-align: right;
+        background-color: transparent;
+        right: 0px;
+        cursor: pointer;
+
+        
+    }
+    #formButton{
+        width: 20%;
+         
+        
+    }
+    input {
+        outline: none;
+        box-shadow: none;
+      }  
+    
+    #searchForm input{
+        position: absolute;
+        border:  none;
+        border-radius: 50px;
+        background-color: transparent;
+        padding: 10px 30px;
+        left: 5px;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        flex-grow: 1;
+        width: 100%;
+        z-index: 2;
+        font-family: 'Indie Flower', cursive;
+        font-size: 25px;
+    
+    }
+    
+    /*style the adde task button*/
+    #addTaskForm{
+        display: flex;
+        position: relative;
+        overflow: hidden;
+        background-color: #E8E8FD;
+        border:black solid 2px;
+        width: 74%;
+        border-radius: 10px;
+        margin: auto;
+         margin-bottom: 90px
+    }
+    
+    #addTaskForm button{
+        border: none; 
+        /*this make my button fixed in the letft side 
+        of the input said*/
+        margin-left: auto;
+        text-align: right;
+        background-color: transparent;
+        padding: 10px 30px;
+        right:0px;
+        cursor: pointer;
+
+    }
+    
+#addTaskForm input{
+        position: absolute;
+        border: none;
+        border-radius: 10px;
+        background-color: transparent;
+        padding: 20px 60px;
+        font-family: 'Indie Flower', cursive;
+        font-size: 25px;
+        width: 100%;
+        left: 5px;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        flex-grow: 1;
+        width: 100%;
+        z-index: 2;
+ }
+
+ /*style the li tamblet*/
+ #editDeleteButtonsContanier{
+    display: flex;
+    justify-content: end;
+    background-color: #FA8B8B;
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    
+ }
+ #editDeleteButtonsContanier img{
+    width: 10%;
+ }
+
+ 
+ #printText{
+    font-family: 'Indie Flower', cursive;
+    font-size: 15px; 
+    
+    
+ }
+
+ 
+ ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.6rem; 
+    
+ }
+
+ li{
+    position: relative;
+    width: 40%;
+    height: 30vh;
+    background-color: #FFF8EB;
+    list-style: none;
+     
+    
+     
+ }
+
+ 
+ 
+ 
+
+  

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styl.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <title>The Goal Digger</title>
+</head>
+<body onload="loadTaskss( )">
+    <div id="mainContaienr">
+        <!--create form to handel the search input-->
+        <form id="searchForm">
+            <input id="searchFormInput" type="text" placeholder="search task">
+            <button type="submit"><img id="formButton" src="/img/magnify.png" alt="magnify pic"></button>
+        </form>
+        <!--create form for add new task-->
+        <form id="addTaskForm">
+            <input id="printText" type="text" placeholder="Add New Task">
+            <button type="submit"><img id="formButton" src="/img/plus.png" alt="plus pic"></button>
+        </form>
+        <!--create ul to display the tasks-->
+        <ul id="taskScreen"></ul>
+        <!--create tamblet to colon the task list -->
+        <template id="ColonList">
+            <li id="taskParent">
+                <span class="printText"></span>
+                <div id="editDeleteButtonsContanier">
+                    <img id="editButton" src="/img/pencil-box-outline.png" alt="pencil pic">
+                    <img class="deleteButton" id="deleteButton" src="/img/trash-can.png" alt="trash pic">
+                </div>
+            </li>
+           
+        </template>  
+    </div>
+<script src="app.js"></script>
+</body>
+</html>
